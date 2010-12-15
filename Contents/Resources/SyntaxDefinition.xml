@@ -7123,11 +7123,16 @@
                   <state id="PHP Comment" type="comment" color="#236E25" font-weight="normal" font-style="italic">
                       <begin><regex>/\*</regex></begin>
                       <end><regex>\*/</regex></end>
+                      <state id="TODO" type="comment" color="#F00" font-weight="bold" useforautocomplete="no" casesensitive="true">
+                          <begin><regex>(?:@?TODO|@todo|FIXME)</regex></begin>
+                          <end><regex>(?:[\n\r])|.?(?=\?&gt;)</regex></end>
+                      </state>
                   </state>
                   
                   <state id="PHP SingleComment" type="comment" color="#236E25" font-weight="normal" font-style="italic">
                       <begin><regex>(?://)|#</regex></begin>
                       <end><regex>(?:[\n\r])|.?(?=\?&gt;)</regex></end>
+                      <state-link state="TODO" />
                   </state>
                   
                   <state id="PHP String" type="string" color="#EB7300" font-weight="normal" font-style="normal" usespellchecking="yes">
