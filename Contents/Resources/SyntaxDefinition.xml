@@ -7133,6 +7133,9 @@
                   <state id="PHP String" type="string" color="#EB7300" font-weight="normal" font-style="normal" usespellchecking="yes">
                       <begin><regex>"</regex></begin>
                       <end><regex>(((?&lt;!\\)(\\\\)*)|^)"</regex></end>
+                      <keywords id="Escaped Characters" color="#A1617A" font-weight="normal" font-style="normal">
+                          <regex>(\\[\\nrtvf\$\"]|\\[0-7]{1,3}|\\x[0-9A-Fa-f]{1,2})</regex>
+                      </keywords>
                       <keywords id="Expanded Variables" color="#c94b16" useforautocomplete="no">
                           <regex>(\$([\w\d])+)</regex>
                       </keywords>
