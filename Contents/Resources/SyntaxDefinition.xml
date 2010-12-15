@@ -6999,16 +6999,19 @@
                       <string>@zzip_opendir</string>
                       <string>@zzip_read</string>
                       <string>@zzip_readdir</string>
+
+                      <!-- Fake functions: treat these keywords like functions -->
+                      <string>print</string>
+                      <string>echo</string>
+                      <string>list</string>
+                      <string>clone</string>
                   </keywords>
                   <keywords id="PHP Keywords" color="#881350" font-weight="normal" useforautocomplete="yes" casesensitive="no">
                       <string>global</string>
-                      <string>print</string>
                       <string>and</string>
                       <string>xor</string>
                       <string>or</string>
-                      <string>echo</string>
                       <string>new</string>
-                      <string>clone</string>
                       <string>static</string>
                       <string>const</string>
                       <string>var</string>
@@ -7024,7 +7027,6 @@
                       <string>null</string>
                       <string>string</string>
                       <string>array</string>
-                      <string>list</string>
                       <string>object</string>
                       <string>if</string>
                       <string>else</string>
