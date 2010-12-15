@@ -7041,10 +7041,8 @@
                       <string>require_once</string>
                       <string>include</string>
                       <string>include_once</string>
-                      <string>function</string>
                       <string>abstract</string>
                       <string>final</string>
-                      <string>class</string>
                       <string>public</string>
                       <string>private</string>
                       <string>protected</string>
@@ -7055,13 +7053,18 @@
                       <string>catch</string>
                       <string>this</string>
                       <string>exception</string>
-                      <string>parent</string>
                       <string>die</string>
                       <string>exit</string>
                       <string>throw</string> <!-- STUDIO -->
                       <string>instanceof</string>
                       <string>namespace</string>
                       <string>use</string> <!-- END STUDIO -->
+                  </keywords>
+                  <keywords id="PHP Function and Class Keywords" color="#881350" font-weight="normal" useforautocomplete="yes" casesensitive="no">
+                      <string>function</string>
+                      <string>class</string>
+                      <string>self</string>
+                      <string>parent</string>
                   </keywords>
                   <keywords id="PHP Type Keywords" color="#881350" font-weight="normal" useforautocomplete="yes" casesensitive="no">
                       <string>string</string>
