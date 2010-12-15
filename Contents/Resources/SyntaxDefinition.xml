@@ -7016,8 +7016,6 @@
                       <string>const</string>
                       <string>var</string>
                       <string>resource</string>
-                      <string>NULL</string>
-                      <string>null</string>
                       <string>if</string>
                       <string>else</string>
                       <string>elseif</string>
@@ -7058,8 +7056,6 @@
                       <string>this</string>
                       <string>exception</string>
                       <string>parent</string>
-                      <string>true</string>
-                      <string>false</string>
                       <string>die</string>
                       <string>exit</string>
                       <string>throw</string> <!-- STUDIO -->
@@ -7089,6 +7085,12 @@
                       <string>__METHOD__</string>
                       <string>__NAMESPACE__</string>
                		</keywords>
+                   <keywords id="PHP Constants" color="#A1617A" font-weight="normal" useforautocomplete="yes" casesensitive="no">
+                      <string>true</string>
+                      <string>false</string>
+                      <string>null</string>
+                      <string>NULL</string>
+                   </keywords>
                  <!-- END STUDIO -->
                   <keywords id="PHP Magic Methods" color="#661AA9" font-weight="normal" useforautocomplete="yes" casesensitive="no">
                       <string>__construct</string>
