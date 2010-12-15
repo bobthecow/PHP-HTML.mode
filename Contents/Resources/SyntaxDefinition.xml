@@ -7015,19 +7015,9 @@
                       <string>static</string>
                       <string>const</string>
                       <string>var</string>
-                      <string>int</string>
-                      <string>float</string>
-                      <string>real</string>
-                      <string>double</string>
-                      <string>bool</string>
-                      <string>boolean</string>
-                      <string>integer</string>
                       <string>resource</string>
                       <string>NULL</string>
                       <string>null</string>
-                      <string>string</string>
-                      <string>array</string>
-                      <string>object</string>
                       <string>if</string>
                       <string>else</string>
                       <string>elseif</string>
@@ -7076,6 +7066,18 @@
                       <string>instanceof</string>
                       <string>namespace</string>
                       <string>use</string> <!-- END STUDIO -->
+                  </keywords>
+                  <keywords id="PHP Type Keywords" color="#881350" font-weight="normal" useforautocomplete="yes" casesensitive="no">
+                      <string>string</string>
+                      <string>int</string>
+                      <string>integer</string>
+                      <string>float</string>
+                      <string>double</string>
+                      <string>real</string>
+                      <string>bool</string>
+                      <string>boolean</string>
+                      <string>array</string>
+                      <string>object</string>
                   </keywords>
                    <!-- STUDIO -->
                    <keywords id="PHP Magic Constants" color="#A1617A" font-weight="normal" useforautocomplete="yes" casesensitive="no">
