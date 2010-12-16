@@ -7125,7 +7125,7 @@
                       <end><regex>\*/</regex></end>
                       <state id="TODO" type="comment" color="#F00" font-weight="bold" useforautocomplete="no" casesensitive="true">
                           <begin><regex>(?:@?TODO|@todo|FIXME)</regex></begin>
-                          <end><regex>(?:[\n\r])|.?(?=\?&gt;)</regex></end>
+                          <end><regex>.?(?=(?:\?&gt;|[\n\r]))</regex></end>
                       </state>
                       <keywords id="Docblock Annotations" color="#FF0000">
                         <regex>(@\w+)</regex>
