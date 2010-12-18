@@ -1,9 +1,9 @@
 PHP-HTML syntax mode for Coda and SubEthaEdit
 ---------------------------------------------
 
-This is a fork of Coda's PHP-HTML syntax mode. It aims to add docblock syntax
-highlighting, @TODO highlighting, more logical syntax highlighting, and better
-PHP 5.3+ support.
+This is fork of Panic's PHP-HTML syntax mode for [Coda](http://panic.com/coda).
+It aims to add PHP Docblock syntax highlighting, **@TODO** highlighting, more
+logical syntax highlighting, and better PHP 5.3+ support.
 
 
 Installation
@@ -21,3 +21,8 @@ Installation
 
 5. Profit!
 
+
+Support
+=======
+
+Visit [the project page on GitHub](https://github.com/bobthecow/PHP-HTML.mode).
