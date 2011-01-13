@@ -7128,7 +7128,7 @@
                           <end><regex>.?(?=(?:\?&gt;|[\n\r]))</regex></end>
                       </state>
                       <keywords id="Docblock Annotations" color="#FF0000">
-                        <regex>(@\w+)</regex>
+                        <regex>\W(@\w+)</regex>
                       </keywords>
                   </state>
                   

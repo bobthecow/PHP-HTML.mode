@@ -52,5 +52,10 @@
     <symbol id="Pragma marks" font-weight="normal" font-style="normal" image="SymbolMark" indentation="0" ignoreblocks="no" show-in-comments="yes">
         <regex>//\s*!([^\n\r]+)</regex>
     </symbol>
+
+    <symbol id="TODOs" font-weight="bold" font-style="normal" image="SymbolWarn" indentation="0" ignoreblocks="no" show-in-comments="yes">
+        <regex>^[ \t]*(?:\*|#|\/\/)[ \t]*(?:@?TODO|@todo|FIXME)[ \t]+([^\n\r]*)</regex>
+    </symbol>
+
 	<!-- END -->	
 </symbols>
