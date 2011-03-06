@@ -7171,13 +7171,21 @@
 				  
               </state>
             
-            <state id="Comment" type="comment" color="#236E25" font-style="italic">
-                <begin><regex>&lt;!--</regex></begin>
-                <end><regex>--&gt;</regex></end>
-                <keywords id="SGML Double Dash" color="#f00" font-weight="normal" useforautocomplete="no">
-                <regex>(?&lt;!\!)(--)(?!&gt;)</regex>
+            <state id="PHP Docs" type="comment" color="#236E6E" font-weight="normal" font-style="normal">
+                <begin><regex>/\*\*</regex></begin>
+                <end><regex>\*/</regex></end>
+                <state id="TODO" type="comment" color="#236E6E" font-weight="bold" useforautocomplete="no" casesensitive="true" font-style="italic">
+                    <begin><regex>(?:@?TODO|@todo|FIXME)</regex></begin>
+                    <end><regex>.?(?=(?:\?&gt;|[\n\r]))</regex></end>
+                </state>
+                <keywords id="Docblock Annotations" color="#236E6E" font-style="italic">
+                  <regex>\W(@\w+)</regex>
                 </keywords>
-                <state-link state="PHP" />
+            </state>
+            
+            <state id="PHP Comment" type="comment" color="#236E25" font-weight="normal" font-style="italic">
+                <begin><regex>/\*</regex></begin>
+                <end><regex>\*/</regex></end>
             </state>
             <state id="CDATA" color="#f00" font-style="italic">
                 <begin><regex>&lt;!\s*\[CDATA\s*\[</regex></begin>
