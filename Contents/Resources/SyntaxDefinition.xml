@@ -7174,11 +7174,11 @@
             <state id="PHP Docs" type="comment" color="#236E6E" font-weight="normal" font-style="normal">
                 <begin><regex>/\*\*</regex></begin>
                 <end><regex>\*/</regex></end>
-                <state id="TODO" type="comment" color="#236E6E" font-weight="bold" useforautocomplete="no" casesensitive="true" font-style="italic">
+                <state id="TODO" type="comment" color="#FF0000" font-weight="bold" useforautocomplete="no" casesensitive="true" font-style="italic">
                     <begin><regex>(?:@?TODO|@todo|FIXME)</regex></begin>
                     <end><regex>.?(?=(?:\?&gt;|[\n\r]))</regex></end>
                 </state>
-                <keywords id="Docblock Annotations" color="#236E6E" font-style="italic">
+                <keywords id="Docblock Annotations" color="#236E6E" font-weight="bold" font-style="italic">
                   <regex>\W(@\w+)</regex>
                 </keywords>
             </state>
