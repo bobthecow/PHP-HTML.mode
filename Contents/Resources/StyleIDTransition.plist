@@ -10,13 +10,13 @@
 	<string>_Default.Numbers</string>
 	<key>/CSS/CSS Keywords</key>
 	<string>_Default.Keywords</string>
-	<key>/Javascript/Characters</key>
+	<key>/JavaScript/Characters</key>
 	<string>_Default.Numbers</string>
-	<key>/Javascript/FunctionRegex</key>
+	<key>/JavaScript/FunctionRegex</key>
 	<string>_Default.FunctionRegex</string>
-	<key>/Javascript/Keywords</key>
+	<key>/JavaScript/Keywords</key>
 	<string>_Default.Keywords</string>
-	<key>/Javascript/Numbers</key>
+	<key>/JavaScript/Numbers</key>
 	<string>_Default.Numbers</string>
 	<key>/PHP-HTML/Attributes in Tags</key>
 	<string>HTML.Attributes in Tags</string>
@@ -42,8 +42,8 @@
 	<string>_Default.FunctionRegex</string>
 	<key>/PHP-HTML/Inline CSS</key>
 	<string>/PHP-HTML/Inline CSS</string>
-	<key>/PHP-HTML/Inline Javascript</key>
-	<string>/PHP-HTML/Inline Javascript</string>
+	<key>/PHP-HTML/Inline JavaScript</key>
+	<string>/PHP-HTML/Inline JavaScript</string>
 	<key>/PHP-HTML/Inside curly brackets</key>
 	<string>/PHP-HTML/Inside curly brackets</string>
 	<key>/PHP-HTML/JSAutodocComment</key>
